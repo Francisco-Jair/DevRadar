@@ -11,12 +11,12 @@ Aplicativo que localiza desenvolvedores com especialidades em determinadas tecno
 
 # Como instalar o Yarn
  
- - Pelo Terminal (Caso tenha o node.js instalado) use npm install -g yarn .
+ - Pelo Terminal (Caso tenha o [node.js](https://nodejs.org/pt-br/download/) instalado) use npm install -g yarn .
  - Pelo Site do proprio [Yarn](https://yarnpkg.com/pt-BR/docs/install#windows-stable) só baixar e instalar.
 
 # Como instalar o EXPO 
 
- - Pelo terminal usa o npm install -g expo-cli (Precisa ter o node.js instalado)
+ - Pelo terminal usa o npm install -g expo-cli (Precisa ter o [node.js](https://nodejs.org/pt-br/download/) instalado)
 
 # Como Usar Aplicação Web
 
@@ -30,5 +30,5 @@ Aplicativo que localiza desenvolvedores com especialidades em determinadas tecno
  - Entre no terminal e dentro da pasta backend use o yarn -i ou yarn install para instalar as Dependências.
  - Depois dê um yarn start para iniciar a API.
  - Entre na pasta mobile pelo termina e use o yarn -i ou yarn install para instalar as Dependências.
- - Depois de um yarn start ou  expo start para iniciar a aplicação.
+ - Depois dê um yarn start ou  expo start para iniciar a aplicação.
 
