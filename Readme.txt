@@ -21,14 +21,14 @@ Aplicativo que localiza desenvolvedores com especialidades em determinadas tecno
 # Como Usar Aplicação Web
 
  - Entre no terminal e dentro da pasta backend use o yarn -i ou yarn install para instalar as Dependências.
- - Depois de um yarn start para iniciar a API.
+ - Depois dê um yarn start para iniciar a API.
  - Entre pelo terminal na pasta Web e use o yarn -i para poder instalar as Dependências.
  - Entre no http://localhost:3333 pelo seu navegador.
 
 # Para usar Aplicação Mobile
 
  - Entre no terminal e dentro da pasta backend use o yarn -i ou yarn install para instalar as Dependências.
- - Depois de um yarn start para iniciar a API.
+ - Depois dê um yarn start para iniciar a API.
  - Entre na pasta mobile pelo termina e use o yarn -i ou yarn install para instalar as Dependências.
  - Depois de um yarn start ou  expo start para iniciar a aplicação.
 
