@@ -1,17 +1,18 @@
 const axios = require('axios')
 const Dev = require('../models/Devs')
 const parseString = require('../utils/parserStringasArray')
+const { findCoonections, sendMessage } = require('../webSocket')
+
 
 /*
 o COntroller tem no maximo 5 funções
 
 index, show, store, update, destroy
-*/ 
+*/
 
 module.exports = {
 
-    async index(requisicao, resposta)
-    {
+    async index(requisicao, resposta) {
         const devs = await Dev.find();
 
         return resposta.json(devs)
@@ -49,19 +50,26 @@ module.exports = {
                 techs: techsArrays,
                 location
             })
+
+            const sendSocketMessageTo = findCoonections(
+                { latitude, longitude },
+                techsArrays
+            )
+
+            sendMessage(sendSocketMessageTo, 'new-Dev', dev)
         }
+
+
 
         return resposta.json(dev)
 
     },
 
-    async update()
-    {
+    async update() {
         //Atualizar uma unica pessoa
     },
 
-    async destroy()
-    {
+    async destroy() {
         //Excluir alguem do banco de dados
     },
 }
