@@ -2,6 +2,8 @@
 
 Aplicativo que localiza desenvolvedores com especialidades em determinadas tecnologias que estão perto de você.
 
+###Deve conectar com o seu banco de dados (Não esqueça)
+
 # Está Organizado em Pastas com as seguintes aplicações
 
  - API Do Aplicação (Back End)
